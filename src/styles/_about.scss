@@ -1,0 +1,19 @@
+.profile {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 5rem;
+
+  img {
+    max-width: 30rem;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    width: 30rem;
+    margin: 1rem;
+    font-weight: 400;
+  }
+}

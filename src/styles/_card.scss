@@ -1,0 +1,59 @@
+.movieSectionHeader {
+  text-align: center;
+  margin: 1rem;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.initial-result {
+  text-align: center;
+  margin-top: 1rem;
+
+  h1 {
+    font-weight: 500;
+  }
+}
+
+.movie {
+  max-width: 40rem;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: rgba(108, 135, 255, 0.685);
+
+  .movie-name {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+
+  .detail {
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      font-weight: 500;
+      opacity: 0.8;
+    }
+
+    h3 {
+      font-weight: 400;
+    }
+
+    a {
+      margin-left: 1rem;
+      text-decoration: none;
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
