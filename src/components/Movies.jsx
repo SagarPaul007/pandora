@@ -3,7 +3,7 @@ import Card from "./Card";
 
 function Movies({ movies }) {
   if (movies) {
-    console.log(movies);
+    // console.log(movies);
     return (
       <>
         <h1 className="movieSectionHeader">
