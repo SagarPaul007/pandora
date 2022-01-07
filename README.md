@@ -2,6 +2,8 @@
 
 ### Download movies, shows, books and many things.
 
+### You must have a download manager(FDM/qbittorrent/utorrent/transmission) installed in your device.
+
 <br/>
 
 ## Site URL
